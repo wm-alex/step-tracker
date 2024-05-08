@@ -43,7 +43,7 @@ struct DashboardView: View {
                             Text($0.title)
                         })
                     }).pickerStyle(.segmented)
-                     
+                    
                     VStack {
                         NavigationLink(value: selectedStat) {
                             HStack {
@@ -101,7 +101,7 @@ struct DashboardView: View {
             .navigationDestination(for: HealthMetricContext.self) { metric in
                 HealthDataListView(metric: metric)
             }
-            .sheet(isPresented: $isShowingPermissionPrimingSheet, 
+            .sheet(isPresented: $isShowingPermissionPrimingSheet,
                    onDismiss: {
                 // fetch health data
             }, content: {
