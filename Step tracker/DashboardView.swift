@@ -34,8 +34,8 @@ struct DashboardView: View {
                 VStack(spacing: 20) {
                     
                     Picker("Selected State", selection: $selectedStat, content: {
-                        ForEach(HealthMetricContext.allCases, content: { metric in
-                            Text(metric.title)
+                        ForEach(HealthMetricContext.allCases, content: {
+                            Text($0.title)
                         })
                     }).pickerStyle(.segmented)
                      
