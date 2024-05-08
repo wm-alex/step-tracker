@@ -33,6 +33,12 @@ struct DashboardView: View {
     
     private var isSteps: Bool { return selectedStat == .steps }
     
+    var averageStepCount: Double {
+        guard !hkManager.stepData.isEmpty else { return 0 }
+        let totalSteps = hkManager.stepData.reduce(0) { $0 + $1.value }
+        return totalSteps/Double(hkManager.stepData.count)
+    }
+    
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -52,9 +58,9 @@ struct DashboardView: View {
                                     Label("Steps", systemImage: "figure.walk")
                                         .font(.title3)
                                         .bold()
-                                        .foregroundStyle(.pink)
+                                        .foregroundStyle(.green)
                                     
-                                    Text("Avg: 10k steps")
+                                    Text("Avg: \(Int(averageStepCount)) steps ")
                                         .font(.caption)
                                 }
                                 Spacer()
@@ -66,12 +72,32 @@ struct DashboardView: View {
                         .padding(.bottom, 12)
                         
                         Chart {
+                            
+                            RuleMark(y: .value("Average", averageStepCount))
+                                .foregroundStyle(Color.secondary)
+                                .lineStyle(.init(lineWidth: 1, dash: [5]))
+                            
                             ForEach(hkManager.stepData) { steps in
                                 BarMark(x: .value("Date", steps.date, unit: .day),
                                         y: .value("Steps", steps.value)
                                 )
+                                .foregroundStyle(.green.gradient)
                             }
                         }.frame(height: 150)
+                            .chartXAxis {
+                                AxisMarks {
+                                    AxisValueLabel(format: .dateTime.month(.defaultDigits).day())
+                                }
+                            }
+                            .chartYAxis {
+                                AxisMarks { value in
+                                    AxisGridLine()
+                                        .foregroundStyle(Color.secondary.opacity(0.3))
+                                    
+                                    AxisValueLabel((value.as(Double.self) ??
+                                                    0).formatted(.number.notation(.compactName)))
+                                }
+                            }
                         
                     }
                     .padding()
@@ -82,7 +108,7 @@ struct DashboardView: View {
                             Label("Averages", systemImage: "calendar")
                                 .font(.title3)
                                 .bold()
-                                .foregroundStyle(.pink)
+                                .foregroundStyle(.green)
                             
                             Text("Last 28 days")
                                 .font(.caption)
@@ -113,7 +139,7 @@ struct DashboardView: View {
                 HealthKitPermissionPrimingView(hasSeen: $hasSeenPermissionPriming)
             })
             
-        }.tint(isSteps ? .pink : .indigo)
+        }.tint(isSteps ? .green : .indigo)
     }
 }
 
