@@ -8,37 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		E4BC6F702BEB5F6E004A85E5 /* Step_trackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BC6F6F2BEB5F6E004A85E5 /* Step_trackerApp.swift */; };
-		E4BC6F722BEB5F6E004A85E5 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BC6F712BEB5F6E004A85E5 /* DashboardView.swift */; };
+		E4BC6F722BEB5F6E004A85E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BC6F712BEB5F6E004A85E5 /* ContentView.swift */; };
 		E4BC6F742BEB5F70004A85E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4BC6F732BEB5F70004A85E5 /* Assets.xcassets */; };
 		E4BC6F772BEB5F70004A85E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4BC6F762BEB5F70004A85E5 /* Preview Assets.xcassets */; };
-		E4BC6F7E2BEB73CA004A85E5 /* HealthDataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BC6F7D2BEB73CA004A85E5 /* HealthDataListView.swift */; };
-		E4BC6F802BEB8A0C004A85E5 /* HealthKitPermissionPrimingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BC6F7F2BEB8A0C004A85E5 /* HealthKitPermissionPrimingView.swift */; };
-		E4BC6F852BEB8EF5004A85E5 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BC6F842BEB8EF5004A85E5 /* HealthKitManager.swift */; };
-		E4BC6F872BEBA37D004A85E5 /* HealthMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BC6F862BEBA37D004A85E5 /* HealthMetric.swift */; };
-		E4C8ACBD2BF1F6E600893C17 /* StepBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C8ACBC2BF1F6E600893C17 /* StepBarChart.swift */; };
-		E4C8ACC32BF201D400893C17 /* ChartMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C8ACC22BF201D400893C17 /* ChartMath.swift */; };
-		E4C8ACC52BF2020F00893C17 /* WeekdayChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C8ACC42BF2020F00893C17 /* WeekdayChartData.swift */; };
-		E4C8ACC82BF202C200893C17 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C8ACC72BF202C200893C17 /* Date+Extension.swift */; };
-		E4C8ACCB2BF2041000893C17 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = E4C8ACCA2BF2041000893C17 /* Algorithms */; };
-		E4C8ACCD2BF2062400893C17 /* StepPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C8ACCC2BF2062400893C17 /* StepPieChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E4BC6F6C2BEB5F6E004A85E5 /* Step tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Step tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BC6F6F2BEB5F6E004A85E5 /* Step_trackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step_trackerApp.swift; sourceTree = "<group>"; };
-		E4BC6F712BEB5F6E004A85E5 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		E4BC6F712BEB5F6E004A85E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4BC6F732BEB5F70004A85E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4BC6F762BEB5F70004A85E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E4BC6F7D2BEB73CA004A85E5 /* HealthDataListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataListView.swift; sourceTree = "<group>"; };
-		E4BC6F7F2BEB8A0C004A85E5 /* HealthKitPermissionPrimingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitPermissionPrimingView.swift; sourceTree = "<group>"; };
-		E4BC6F832BEB8D5C004A85E5 /* Step tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Step tracker.entitlements"; sourceTree = "<group>"; };
-		E4BC6F842BEB8EF5004A85E5 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
-		E4BC6F862BEBA37D004A85E5 /* HealthMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthMetric.swift; sourceTree = "<group>"; };
-		E4C8ACBC2BF1F6E600893C17 /* StepBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepBarChart.swift; sourceTree = "<group>"; };
-		E4C8ACC22BF201D400893C17 /* ChartMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartMath.swift; sourceTree = "<group>"; };
-		E4C8ACC42BF2020F00893C17 /* WeekdayChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayChartData.swift; sourceTree = "<group>"; };
-		E4C8ACC72BF202C200893C17 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
-		E4C8ACCC2BF2062400893C17 /* StepPieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepPieChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +26,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C8ACCB2BF2041000893C17 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,13 +51,8 @@
 		E4BC6F6E2BEB5F6E004A85E5 /* Step tracker */ = {
 			isa = PBXGroup;
 			children = (
-				E4BC6F832BEB8D5C004A85E5 /* Step tracker.entitlements */,
 				E4BC6F6F2BEB5F6E004A85E5 /* Step_trackerApp.swift */,
-				E4C8ACC62BF202AF00893C17 /* Extensions */,
-				E4C8ACC12BF2008300893C17 /* Managers */,
-				E4C8ACC02BF2007C00893C17 /* Model */,
-				E4C8ACBF2BF2004800893C17 /* Charts */,
-				E4C8ACBE2BF1F87500893C17 /* Screens */,
+				E4BC6F712BEB5F6E004A85E5 /* ContentView.swift */,
 				E4BC6F732BEB5F70004A85E5 /* Assets.xcassets */,
 				E4BC6F752BEB5F70004A85E5 /* Preview Content */,
 			);
@@ -91,51 +65,6 @@
 				E4BC6F762BEB5F70004A85E5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		E4C8ACBE2BF1F87500893C17 /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-				E4BC6F7F2BEB8A0C004A85E5 /* HealthKitPermissionPrimingView.swift */,
-				E4BC6F712BEB5F6E004A85E5 /* DashboardView.swift */,
-				E4BC6F7D2BEB73CA004A85E5 /* HealthDataListView.swift */,
-			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
-		E4C8ACBF2BF2004800893C17 /* Charts */ = {
-			isa = PBXGroup;
-			children = (
-				E4C8ACBC2BF1F6E600893C17 /* StepBarChart.swift */,
-				E4C8ACCC2BF2062400893C17 /* StepPieChart.swift */,
-				E4C8ACC22BF201D400893C17 /* ChartMath.swift */,
-				E4C8ACC42BF2020F00893C17 /* WeekdayChartData.swift */,
-			);
-			path = Charts;
-			sourceTree = "<group>";
-		};
-		E4C8ACC02BF2007C00893C17 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				E4BC6F862BEBA37D004A85E5 /* HealthMetric.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E4C8ACC12BF2008300893C17 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				E4BC6F842BEB8EF5004A85E5 /* HealthKitManager.swift */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		E4C8ACC62BF202AF00893C17 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				E4C8ACC72BF202C200893C17 /* Date+Extension.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,9 +83,6 @@
 			dependencies = (
 			);
 			name = "Step tracker";
-			packageProductDependencies = (
-				E4C8ACCA2BF2041000893C17 /* Algorithms */,
-			);
 			productName = "Step tracker";
 			productReference = E4BC6F6C2BEB5F6E004A85E5 /* Step tracker.app */;
 			productType = "com.apple.product-type.application";
@@ -185,9 +111,6 @@
 				Base,
 			);
 			mainGroup = E4BC6F632BEB5F6E004A85E5;
-			packageReferences = (
-				E4C8ACC92BF2041000893C17 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
-			);
 			productRefGroup = E4BC6F6D2BEB5F6E004A85E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -214,17 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4BC6F7E2BEB73CA004A85E5 /* HealthDataListView.swift in Sources */,
-				E4C8ACC52BF2020F00893C17 /* WeekdayChartData.swift in Sources */,
-				E4BC6F722BEB5F6E004A85E5 /* DashboardView.swift in Sources */,
-				E4C8ACBD2BF1F6E600893C17 /* StepBarChart.swift in Sources */,
+				E4BC6F722BEB5F6E004A85E5 /* ContentView.swift in Sources */,
 				E4BC6F702BEB5F6E004A85E5 /* Step_trackerApp.swift in Sources */,
-				E4C8ACC82BF202C200893C17 /* Date+Extension.swift in Sources */,
-				E4BC6F852BEB8EF5004A85E5 /* HealthKitManager.swift in Sources */,
-				E4BC6F802BEB8A0C004A85E5 /* HealthKitPermissionPrimingView.swift in Sources */,
-				E4C8ACC32BF201D400893C17 /* ChartMath.swift in Sources */,
-				E4C8ACCD2BF2062400893C17 /* StepPieChart.swift in Sources */,
-				E4BC6F872BEBA37D004A85E5 /* HealthMetric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,15 +269,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Step tracker/Step tracker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Step tracker/Preview Content\"";
 				DEVELOPMENT_TEAM = M9GYN9PFM8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "The app shows your step and weight data in an interactive chart.";
-				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The app allows you to add step and weight data to Apple Health.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -387,15 +298,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Step tracker/Step tracker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Step tracker/Preview Content\"";
 				DEVELOPMENT_TEAM = M9GYN9PFM8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "The app shows your step and weight data in an interactive chart.";
-				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The app allows you to add step and weight data to Apple Health.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -436,25 +344,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		E4C8ACC92BF2041000893C17 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apple/swift-algorithms.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		E4C8ACCA2BF2041000893C17 /* Algorithms */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E4C8ACC92BF2041000893C17 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
-			productName = Algorithms;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E4BC6F642BEB5F6E004A85E5 /* Project object */;
 }
