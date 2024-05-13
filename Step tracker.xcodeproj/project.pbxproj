@@ -20,6 +20,7 @@
 		E4C8ACC52BF2020F00893C17 /* WeekdayChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C8ACC42BF2020F00893C17 /* WeekdayChartData.swift */; };
 		E4C8ACC82BF202C200893C17 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C8ACC72BF202C200893C17 /* Date+Extension.swift */; };
 		E4C8ACCB2BF2041000893C17 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = E4C8ACCA2BF2041000893C17 /* Algorithms */; };
+		E4C8ACCD2BF2062400893C17 /* StepPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C8ACCC2BF2062400893C17 /* StepPieChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		E4C8ACC22BF201D400893C17 /* ChartMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartMath.swift; sourceTree = "<group>"; };
 		E4C8ACC42BF2020F00893C17 /* WeekdayChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayChartData.swift; sourceTree = "<group>"; };
 		E4C8ACC72BF202C200893C17 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		E4C8ACCC2BF2062400893C17 /* StepPieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepPieChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				E4C8ACBC2BF1F6E600893C17 /* StepBarChart.swift */,
+				E4C8ACCC2BF2062400893C17 /* StepPieChart.swift */,
 				E4C8ACC22BF201D400893C17 /* ChartMath.swift */,
 				E4C8ACC42BF2020F00893C17 /* WeekdayChartData.swift */,
 			);
@@ -220,6 +223,7 @@
 				E4BC6F852BEB8EF5004A85E5 /* HealthKitManager.swift in Sources */,
 				E4BC6F802BEB8A0C004A85E5 /* HealthKitPermissionPrimingView.swift in Sources */,
 				E4C8ACC32BF201D400893C17 /* ChartMath.swift in Sources */,
+				E4C8ACCD2BF2062400893C17 /* StepPieChart.swift in Sources */,
 				E4BC6F872BEBA37D004A85E5 /* HealthMetric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
